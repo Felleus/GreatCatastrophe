@@ -1,0 +1,25 @@
+name: GreatCatastrophe
+version: '1.1'
+main: com.fsd.GreatCatastrophe
+api-version: '1.20'
+prefix: GreatCatastrophe
+authors: [ FSD ]
+description: FSD Plugin
+website: felleusdev.com
+commands:
+  acidrain:
+    description: "Вызвать кислотный дождь"
+    usage: "/acidrain"
+  lightningstorm:
+    description: "Вызвать шторм молний"
+    usage: "/lightningstorm"
+  revenge:
+    description: "Включить или отключить месть мирных животных"
+    usage: "/revenge"
+permissions:
+  greatcatastrophe.acidrain:
+    description: "Разрешает использование команды кислотного дождя"
+    default: op
+  greatcatastrophe.lightningstorm:
+    description: "Разрешает использование команды молний"
+    default: op
